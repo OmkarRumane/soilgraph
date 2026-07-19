@@ -1,0 +1,21 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment secrets
+.env
+*.env.local
+
+# Docker volumes / data
+neo4j_data/
+qdrant_data/
+
+# OS/editor cruft
+.DS_Store
+.vscode/
+!.vscode/settings.json
+
+# Langfuse / eval artifacts
+*.log
