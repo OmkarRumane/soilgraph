@@ -19,3 +19,6 @@ qdrant_data/
 
 # Langfuse / eval artifacts
 *.log
+# Source documents (large, third-party — not committed)
+data/raw/
+data/processed/
